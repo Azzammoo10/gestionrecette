@@ -1,0 +1,32 @@
+{
+  "name": "gestion-recettes-backend",
+  "version": "1.0.0",
+  "description": "Backend API pour la gestion de recettes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "recipes",
+    "api",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "connect-redis": "^9.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.18.2",
+    "express-validator": "^7.0.1",
+    "ioredis": "^5.9.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
